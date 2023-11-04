@@ -1,0 +1,202 @@
+body {
+    
+    /* margen del elemento */
+    margin: 0;
+    /* margen hacia adentro */
+    padding: 0;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: auto;
+
+    /* eliminar puntos */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3%;
+} 
+
+a{
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    color:rgb(0, 0, 0);
+
+}
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+nav .nav-right-section img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    /* para agregarle el margen de la parte de arriba entre el logo y el header */
+    margin-top: 70px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 350px;
+    margin: auto;
+}
+
+main .main-logo img{
+    height: 120px;
+
+}
+/* input es una caja */
+main .main-input{
+    width: 500px;
+    margin: auto;
+    /* para agregarle el margen de la parte de arriba entre el logo y el header */
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+main .main-input-container{
+    /* primero ancho, estilo del borde y color */
+    /* estilos: solid, dotted (punteado), dashed ( */
+    border: 1px solid #dfe1e5;
+    border-radius: 40px;
+    width: 540px;
+    height: 38px;
+}
+
+main .main-input input{
+    height: 25px;
+    /*quitar el borde */
+    border: none;
+    outline: none;
+    width: 450px;
+    padding-top: 10px;
+}
+
+main .main-input .search-icon {
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    /* https://seekicon.com/free-icon-download/search_20.svg */
+    background-size: contain;
+    padding-left: 15px;
+    /* para que no se ponga la lupa dos veces */
+    background-repeat: no-repeat;
+    margin-left: 3%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    height: 50%;
+}
+
+main .main-input .micro-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    margin-right: 4px;
+    justify-content: space-between;
+}
+
+main .main-input .cam-icon {
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-size: contain;
+    padding-right:  25%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    margin-left: 2px;
+}
+
+main .botones-de-gomita {
+    margin-top: 25px;
+    align-items: center;
+
+}
+
+main .buscar {
+    border-color: transparent;
+    height: 30px;
+    width: 14%;
+}
+
+main .libre {
+    background-color: transparent;
+    border-color: transparent;
+    width: 1px;
+}
+
+main .suerte {
+    border-color:transparent;
+    height: 30px;
+    width: 14%;
+}
+
+main .textoextra{
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+footer{
+    background-color: rgb(245, 243, 243);
+    height: 30%;
+    bottom: 0%;
+    width: 100%;
+    margin-top: 70px;
+    color:#7a7a7a;
+}
+
+footer .primera {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    border-bottom: 1px solid #9c9c99;
+    justify-content: flex-start;
+    padding-top: 5px;
+}
+
+footer .segundo{
+    margin-top: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: none;
+    padding-bottom: 2.5%;
+    font-size: 13px;
+}
+
+footer .navegador-izquierda {
+    justify-content: flex-start;
+    list-style: none;
+    float: left;
+    padding-left: 15px;
+    padding-right: 25px;
+
+} 
+
+footer .navegador-derecha {
+    justify-content: flex-end;
+    list-style: none;
+    float: right;
+    padding-left: 25px;
+    padding-right: 15px;
+
+}
